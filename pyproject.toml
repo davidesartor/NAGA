@@ -1,0 +1,16 @@
+[project]
+name = "naga"
+version = "0.1.0"
+description = "Multidimensional NonCausal SSM"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "einops>=0.8.1",
+    "flax>=0.10.6",
+    "ipykernel>=6.29.5",
+    "jax>=0.6.1",
+    "jaxtyping>=0.3.2",
+    "matplotlib>=3.10.3",
+    "numpy>=2.2.6",
+    "scipy>=1.15.3",
+]
